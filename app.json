@@ -4,11 +4,11 @@
     "slug": "mobile-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./app/shared/assets/icons/app-logo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./app/shared/assets/splash-screens/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,20 +20,34 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./app/shared/assets/icons/app-logo.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.velocityvue.safetyassist",
+      "config": {
+        "appSecret": {
+          "value": "8a991f4c-9ded-4f55-911c-51de7451923e"
+        }
+      },
+      "web": {
+        "bundler": "metro",
+        "output": "static",
+        "favicon": "./assets/images/favicon.png"
+      },
+      "plugins": [
+        "expo-router"
+      ],
+      "experiments": {
+        "typedRoutes": true
+      },
+      "extra": {
+        "router": {
+          "origin": false
+        },
+        "eas": {
+          "projectId": "379acf3e-19cd-4325-8493-3475682b45fa"
+        }
       }
-    },
-    "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
-    },
-    "plugins": [
-      "expo-router"
-    ],
-    "experiments": {
-      "typedRoutes": true
     }
   }
 }
