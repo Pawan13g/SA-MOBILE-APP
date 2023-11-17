@@ -4,19 +4,30 @@
     "strict": true,
     "baseUrl": "./app",
     "paths": {
-      "@components/*": ["shared/component/*"],
-      "@screens/*": ["shared/screens/*"],
-      "@utils/*": ["shared/utils/*"],
-      "@assets/*": ["shared/assets/*"],
-      "@constants/*": ["shared/constants/*"],
-      "@rdx/*": ["shared/rdx/*"],
+      "@components/*": [
+        "shared/component/*"
+      ],
+      "@screens/*": [
+        "shared/screens/*"
+      ],
+      "@utils/*": [
+        "shared/utils/*"
+      ],
+      "@assets/*": [
+        "shared/assets/*"
+      ],
+      "@constants/*": [
+        "shared/constants/*"
+      ],
+      "@rdx/*": [
+        "shared/rdx/*"
+      ]
     }
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts",
-    "app"
-, "app.config.js"  ]
+    "app",
+    "app.config.js"
+  ]
 }

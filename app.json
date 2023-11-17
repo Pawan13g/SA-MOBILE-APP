@@ -24,11 +24,6 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.velocityvue.safetyassist",
-      "config": {
-        "appSecret": {
-          "value": "8a991f4c-9ded-4f55-911c-51de7451923e"
-        }
-      },
       "web": {
         "bundler": "metro",
         "output": "static",
