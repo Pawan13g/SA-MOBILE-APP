@@ -22,6 +22,11 @@ buildscript {
     }
 }
 
+  android {
+         namespace 'com.velocityvue.safetyassist'
+     }
+     
+
 allprojects {
     repositories {
         maven {
