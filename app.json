@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mobile-app",
-    "slug": "mobile-app",
+    "name": "Safety Assist",
+    "slug": "Safety Assist",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./app/shared/assets/icons/app-logo.png",
@@ -16,7 +16,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.velocityvue.safetyassist"
     },
     "android": {
       "adaptiveIcon": {
